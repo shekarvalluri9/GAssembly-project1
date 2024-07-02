@@ -1,0 +1,118 @@
+
+html body{
+    background-color: rgba(0, 0, 0, 0.062);
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: url("Css\Images\005.JPG");
+    background-size: cover;
+}
+/*
+header style */
+header{
+    background-color: teal;
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+}
+.container{
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: blue;
+}
+
+img{
+    background-color: black;
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+ul.dropdown{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    
+}
+ul.dropdown li{
+    margin: 0 10px;
+    
+}
+ul.dropdown li a{
+    color: white;
+    text-decoration: none;
+    
+}
+ul.dropdown li a:hover{
+    color: rgb(255, 255, 255);
+    
+}
+
+nav{
+    background-color: teal;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 auto;
+}
+p{
+    color: white;
+    text-align: center;
+}
+main{
+    background-color: teal;
+    margin: auto;
+    max-width: 100%;
+    padding:20px;
+
+}
+section h2{
+    color: rgb(2, 9, 15);
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu{
+   display: none;
+    position: absolute;
+    top: 100%;
+    padding: 10px;
+    
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    color: blue;
+}
+.dropdown.dropdown-menu.li a:hover{
+    color: rgb(231, 38, 38);
+}
+.social_links{
+    display: flex;
+    text-align: center;
+    flex-direction: end;
+    padding: 0;
+    list-style: none;
+}
+.social_links li{
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.social_links li:hover a{
+    color: rgb(255, 0, 0);
+}
+.container p a{
+    text-decoration: underline;
+}
+.container p:hover{
+    color: darkgoldenrod;
+}
